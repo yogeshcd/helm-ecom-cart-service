@@ -1,0 +1,19 @@
+apiVersion: v1
+entries:
+  cart-service:
+  - apiVersion: v2
+    appVersion: 0.1.0
+    created: "2023-06-12T08:56:40.373742+05:30"
+    dependencies:
+    - condition: redis.enabled
+      name: redis
+      repository: https://charts.bitnami.com/bitnami
+      version: 11.2.1
+    description: A Helm chart for Kubernetes
+    digest: 81fc9982eb94994c6f78c6a2f5a8863f52b7f015a4ef9e6f9c5410ea39a85da0
+    name: cart-service
+    type: application
+    urls:
+    - https://github.com/yogeshcd/helm-ecom-cart-service.git/cart-service-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-06-12T08:56:40.368031+05:30"
